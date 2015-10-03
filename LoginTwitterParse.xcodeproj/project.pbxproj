@@ -452,6 +452,10 @@
 				);
 				INFOPLIST_FILE = LoginTwitterParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devworms.LoginTwitterParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -467,6 +471,10 @@
 				);
 				INFOPLIST_FILE = LoginTwitterParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devworms.LoginTwitterParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
