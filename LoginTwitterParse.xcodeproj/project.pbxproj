@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7738071BC35A4600C78E46 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7738061BC35A4600C78E46 /* Accounts.framework */; };
+		3B7738091BC35A5200C78E46 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7738081BC35A5200C78E46 /* Social.framework */; };
+		3B77380C1BC36E0E00C78E46 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B77380B1BC36E0E00C78E46 /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
 		3B82E13E1BBF511E00423E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E13D1BBF511E00423E45 /* AppDelegate.swift */; };
 		3B82E1401BBF511E00423E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E13F1BBF511E00423E45 /* ViewController.swift */; };
 		3B82E1431BBF511E00423E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B82E1411BBF511E00423E45 /* Main.storyboard */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B7738061BC35A4600C78E46 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3B7738081BC35A5200C78E46 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3B77380B1BC36E0E00C78E46 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		3B82E13A1BBF511E00423E45 /* LoginTwitterParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTwitterParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B82E13D1BBF511E00423E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B82E13F1BBF511E00423E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,10 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7738091BC35A5200C78E46 /* Social.framework in Frameworks */,
+				3B7738071BC35A4600C78E46 /* Accounts.framework in Frameworks */,
 				3B82E17B1BBF518000423E45 /* SystemConfiguration.framework in Frameworks */,
 				3B82E1791BBF517900423E45 /* StoreKit.framework in Frameworks */,
 				3B82E1771BBF517200423E45 /* Security.framework in Frameworks */,
 				3B82E1751BBF516D00423E45 /* QuartzCore.framework in Frameworks */,
+				3B77380C1BC36E0E00C78E46 /* ParseTwitterUtils.framework in Frameworks */,
 				3B82E17F1BBF51A900423E45 /* Parse.framework in Frameworks */,
 				3B82E1731BBF516700423E45 /* CoreLocation.framework in Frameworks */,
 				3B82E1711BBF516000423E45 /* CoreGraphics.framework in Frameworks */,
@@ -159,6 +168,9 @@
 		3B82E16B1BBF513A00423E45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B77380B1BC36E0E00C78E46 /* ParseTwitterUtils.framework */,
+				3B7738081BC35A5200C78E46 /* Social.framework */,
+				3B7738061BC35A4600C78E46 /* Accounts.framework */,
 				3B82E17C1BBF51A900423E45 /* Bolts.framework */,
 				3B82E17D1BBF51A900423E45 /* Parse.framework */,
 				3B82E17A1BBF518000423E45 /* SystemConfiguration.framework */,
@@ -547,6 +559,7 @@
 				3B82E1641BBF511E00423E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B82E1651BBF511E00423E45 /* Build configuration list for PBXNativeTarget "LoginTwitterParseTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +568,7 @@
 				3B82E1671BBF511E00423E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B82E1681BBF511E00423E45 /* Build configuration list for PBXNativeTarget "LoginTwitterParseUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +577,7 @@
 				3B82E16A1BBF511E00423E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
