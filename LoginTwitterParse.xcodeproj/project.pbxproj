@@ -463,6 +463,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LoginTwitterParse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lsqlite3",
@@ -482,6 +483,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = LoginTwitterParse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lsqlite3",

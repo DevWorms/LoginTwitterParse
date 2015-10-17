@@ -25,10 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.enableLocalDatastore()
         
         // Initialize Parse.
-        Parse.setApplicationId("Rv2InCwEE4RJowtNJVaYqlLw0VpjPLEePcfpHMsw",
-            clientKey: "oYALR4CrZhDOYlrOk7zCLszZXixJEXsDtOV4e0zt")
+        Parse.setApplicationId("your App Id", clientKey: "your Client Id")
     
-        PFTwitterUtils.initializeWithConsumerKey("MMWC6DUWHTHQHoa10u4ZU0tRh",  consumerSecret:"teJtkCAvVvcLQoba6JTMdzTG53YuuWyTolBJ0CDFxaLO8vmdMa")
+        PFTwitterUtils.initializeWithConsumerKey("YOUR CONSUMER KEY",  consumerSecret:"YOUR CONSUMER SECRET")
         
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
